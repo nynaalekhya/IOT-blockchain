@@ -1,5 +1,4 @@
 
-# IOTA-MAM_Cold-Chain-Monitoring
 
 # The problem :
 
