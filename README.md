@@ -121,3 +121,39 @@ Name | Description
 .env | configuration file for environment variables
 
 
+<details>
+  <summary>Contribution Guide</summary>
+  
+  1. Fork the repository.
+
+2. Clone the fork to your local machine and add upstream remote:
+
+```sh
+git clone https://github.com/<your username>/material-ui.git
+cd material-ui
+git remote add upstream https://github.com/mui-org/material-ui.git
+```
+
+3. Synchronize your local `next` branch with the upstream one:
+
+```sh
+git checkout next
+git pull upstream next
+```
+4. Create a new topic branch:
+
+```sh
+git checkout -b my-topic-branch
+```
+
+5. Make changes, commit and push to your fork:
+
+```sh
+git push -u origin HEAD
+```
+
+6. Go to [the repository](https://github.com/mui-org/material-ui) and make a Pull Request.
+
+The core team is monitoring for Pull Requests. We will review your Pull Request and either merge it, request changes to it, or close it with an explanation.
+
+</details>
