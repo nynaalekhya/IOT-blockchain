@@ -121,7 +121,7 @@ Name | Description
 .env | configuration file for environment variables
 
 <details>
-  <summary markdown="span">Click to expand!</summary>
+  <summary markdown="1">Click to expand!</summary>
   
   ## Heading
   1. A numbered
