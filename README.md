@@ -124,7 +124,7 @@ Name | Description
 <details>
   <summary>Contribution Guide</summary>
   
-1. Fork the repository.
+1. Fork the [repository](https://github.com/backdrop/backdrop.git).
 
 2. Clone the fork to your local machine and add upstream remote:
 
@@ -134,26 +134,27 @@ cd backdrop
 git remote add upstream https://github.com/backdrop/backdrop.git
 ```
 
-3. Synchronize your local `1.x` branch with the upstream one:
+3. Synchronize the local `1.x` branch with the upstream branch:
 
 ```sh
+git fetch upstream
 git checkout 1.x
-git pull upstream 1.x
+git merge upstream/1.x
 ```
-4. Create a new topic branch:
+4. Create a new branch:
 
 ```sh
-git checkout -b my-topic-branch
+git checkout -b my-new-branch
 ```
 
-5. Make changes, commit and push to your fork:
+5. Make changes, then commit the changes and push to the forked repo:
 
 ```sh
 git push -u origin HEAD
 ```
 
-6. Go to [the repository](https://github.com/backdrop/backdrop.git) and make a Pull Request.
+6. Go to [the repository](https://github.com/backdrop/backdrop.git) and link a Pull Request to the issue.
 
-The core team is monitoring for Pull Requests. We will review your Pull Request and either merge it, request changes to it, or close it with an explanation.
+We will review your Pull Request and either merge it, request changes to it, or close it with an explanation.
 
 </details>
