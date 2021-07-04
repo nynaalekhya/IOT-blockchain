@@ -157,6 +157,6 @@ git push -u origin my-new-branch
 
 6. Go to [the repository](https://github.com/backdrop/backdrop.git) and link a Pull Request to the issue.
 
-After reviewing the pull request, we will provide you with feedback to request changes and merge the work.
+After reviewing the pull request, we will provide you with feedback, request further changes and approve the PR to merge the work.
 
 </details>
