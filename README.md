@@ -122,7 +122,7 @@ Name | Description
 
 
 <details>
-  <summary>How to start contributing</summary>
+  <summary>How to start</summary>
   
 1. Fork the [repository](https://github.com/backdrop/backdrop.git).
 
